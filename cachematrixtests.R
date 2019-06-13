@@ -22,4 +22,3 @@ mcm$getsolve()              # retrieve the value of s, which should be NULL
 cacheSolve(mcm)             # prints "calculating" (as s was null) and returns the inverse
 cacheSolve(mcm)             # prints "getting cached data" as s has been calculated and returns the inverse
 cacheSolve(mcm) == solve(mcm$get())   # Used to confirm that the correct inverse was returned 
-
